@@ -1,0 +1,21 @@
+{
+  "name": "saucedemotests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "cucumber-js --require cucumber.conf.js --require tests/acceptance/stepDefinitions/**/*.js --format @cucumber/pretty-formatter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.7"
+  },
+  "dependencies": {
+    "playwright": "^1.40.1"
+  }
+}
