@@ -24,7 +24,7 @@ By default, the tests will run on headed mode but if you want to run the tests i
 HEADLESS=true npm run test:e2e tests/acceptance/features
 ```
 
-Similarly, tests are run a little bit slower to see it being automated in browser. If you don't want the tests to run slowly you can set follwing env variable
+Similarly, tests can be a little bit slower to see it being automated in browser. If you don't want the tests to run slowly you can set follwing env variable
 ```bash
 SLOMO=0 npm run test:e2e tests/acceptance/features
 ```
